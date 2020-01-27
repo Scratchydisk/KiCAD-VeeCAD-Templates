@@ -1,0 +1,160 @@
+[Version]
+Product,2
+File,19
+{
+"Config" : {
+  "NetImportFormat" : "Tango"
+},
+"Board" : {
+  "Width" : 35,
+  "Height" : 41,
+  "Pattern" : "Strip"
+},
+"CelledOutlines" : [
+  { "Name" : "AAA_CELL_HOLDER", "Locked" : true,
+    "Rows" : [
+    ["Body","Body",{"Pin" : "1"},"Body","Body"],
+    ["Body","Body","Body","Body","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Free","Free","Free","Body"],
+    ["Body","Body","Body","Body","Body"],
+    ["Body","Body",{"Pin" : "2"},"Body","Body"]
+    ]
+  },
+  { "Name" : "DIP30", "Locked" : true,
+    "Rows" : [
+    [{"Pin" : "1"},"Body","Free","Free","Free","Body",{"Pin" : "30"}],
+    [{"Pin" : "2"},"Body","Body","Body","Body","Body",{"Pin" : "29"}],
+    [{"Pin" : "3"},"Body","Body","Body","Body","Body",{"Pin" : "28"}],
+    [{"Pin" : "4"},"Body","Body","Body","Body","Body",{"Pin" : "27"}],
+    [{"Pin" : "5"},"Body","Body","Body","Body","Body",{"Pin" : "26"}],
+    [{"Pin" : "6"},"Body","Body","Body","Body","Body",{"Pin" : "25"}],
+    [{"Pin" : "7"},"Body","Body","Body","Body","Body",{"Pin" : "24"}],
+    [{"Pin" : "8"},"Body","Body","Body","Body","Body",{"Pin" : "23"}],
+    [{"Pin" : "9"},"Body","Body","Body","Body","Body",{"Pin" : "22"}],
+    [{"Pin" : "10"},"Body","Body","Body","Body","Body",{"Pin" : "21"}],
+    [{"Pin" : "11"},"Body","Body","Body","Body","Body",{"Pin" : "20"}],
+    [{"Pin" : "12"},"Body","Body","Body","Body","Body",{"Pin" : "19"}],
+    [{"Pin" : "13"},"Body","Body","Body","Body","Body",{"Pin" : "18"}],
+    [{"Pin" : "14"},"Body","Body","Body","Body","Body",{"Pin" : "17"}],
+    [{"Pin" : "15"},"Body","Body","Body","Body","Body",{"Pin" : "16"}]
+    ]
+  },
+  { "Name" : "SSD1306", "Locked" : true,
+    "Rows" : [
+    ["Body","Body","Body","Body","Body","Body","Body","Body","Body","Body","Body","Body"],
+    ["Body","Body","Body","Free","Free","Free","Free","Free","Free","Free","Body","Body"],
+    ["Body","Body","Body","Free","Free","Free","Free","Free","Free","Free","Body","Body"],
+    ["Body","Body","Body","Free","Free","Free","Free","Free","Free","Free","Body",{"Pin" : "1"}],
+    ["Body","Body","Body","Free","Free","Free","Free","Free","Free","Free","Body",{"Pin" : "2"}],
+    ["Body","Body","Body","Free","Free","Free","Free","Free","Free","Free","Body",{"Pin" : "3"}],
+    ["Body","Body","Body","Free","Free","Free","Free","Free","Free","Free","Body",{"Pin" : "4"}],
+    ["Body","Body","Body","Free","Free","Free","Free","Free","Free","Free","Body","Body"],
+    ["Body","Body","Body","Free","Free","Free","Free","Free","Free","Free","Body","Body"],
+    ["Body","Body","Body","Body","Body","Body","Body","Body","Body","Body","Body","Body"]
+    ]
+  }
+],
+"LeadedOutlines" : [
+],
+"RadialOutlines" : [
+  { "Name" : "PIEZO_03x06", "Locked" : true,
+    "LeadSpacing" : 3, "Diameter" : 6,
+    "Pin0Name" : "1", "Pin1Name" : "2"
+  },
+  { "Name" : "PIEZO_04x09", "Locked" : true,
+    "LeadSpacing" : 4, "Diameter" : 9,
+    "Pin0Name" : "1", "Pin1Name" : "2"
+  }
+],
+"CustomOutlines" : [
+  { "Name" : "TACT_2_PIN", "Locked" : true,
+    "Pins" : [
+    { "Name" : "1", "X5" : 2, "Y5" : 2 },
+    { "Name" : "3", "X5" : 17, "Y5" : 2 },
+    { "Name" : "2", "X5" : 2, "Y5" : 12 },
+    { "Name" : "4", "X5" : 17, "Y5" : 12 }
+    ],
+    "Lines" : [
+    { "X5" : 3, "Y5" : 0, "DX5" : 13, "DY5" : 0},
+    { "X5" : 16, "Y5" : 0, "DX5" : 0, "DY5" : 14},
+    { "X5" : 16, "Y5" : 14, "DX5" : -13, "DY5" : 0},
+    { "X5" : 3, "Y5" : 14, "DX5" : 0, "DY5" : -14},
+    { "X5" : 6, "Y5" : 4, "DX5" : 0, "DY5" : 6},
+    { "X5" : 6, "Y5" : 4, "DX5" : 7, "DY5" : 0},
+    { "X5" : 13, "Y5" : 4, "DX5" : 0, "DY5" : 6},
+    { "X5" : 6, "Y5" : 10, "DX5" : 7, "DY5" : 0}
+    ]
+  }
+],
+"SmdOutlines" : [
+],
+"Components" : [
+  { "Designator" : "AAA_CELL_HOLDER", "Value" : "", "Outline" : "AAA_CELL_HOLDER",
+  "X1000" : 20000, "Y1000" : 16000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 2, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "DIP30", "Value" : "", "Outline" : "DIP30",
+  "X1000" : 7000, "Y1000" : 2000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 1, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "PIEZO_03x06", "Value" : "", "Outline" : "PIEZO_03x06",
+  "X1000" : 12000, "Y1000" : 20000, "EndDeltaX" : 0, "EndDeltaY" : 3,
+  "Text" : { "X" : 0, "Y" : -2, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "PIEZO_04x09", "Value" : "", "Outline" : "PIEZO_04x09",
+  "X1000" : 4000, "Y1000" : 21000, "EndDeltaX" : 0, "EndDeltaY" : 5,
+  "Text" : { "X" : 0, "Y" : -3, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "SSD1306", "Value" : "", "Outline" : "SSD1306",
+  "X1000" : 16000, "Y1000" : 2000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 1, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "TACT_2_PIN", "Value" : "", "Outline" : "TACT_2_PIN",
+  "X1000" : 2000, "Y1000" : 2000, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 1, "Y" : -1, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  }
+],
+"Links" : [
+],
+"Breaks" : [
+],
+"Wires" : [
+],
+"Text" : [
+    { "Value" : "0.96\" I2C OLED", "X" : 19, "Y" : 0, "Angle" : 0, "Size" : "Small", "Group" : 0 },
+    { "Value" : "Arduino Nano", "X" : 10, "Y" : 0, "Angle" : 0, "Size" : "Small", "Group" : 0 }
+],
+"Nets" : [
+],
+"NetColors" : [
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" },
+    { "Node" : "" }
+],
+"Notes" : {
+  "Lines" : ""
+}
+}
