@@ -2,15 +2,23 @@
 
 A store for custom templates created for KiCAD, VeeCAD or other such tool.
 
+Source is attributed if not developed by me.
+
 ## Templates Included
 
 ### KiCAD
 
-`Modules.lib`
+`Display.lib`
 
-| Component                                                                                                                                                                    | Eeschema Symbol | PCB Footprint |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------: | :-----------: |
-| NodeMCU ESP-32S (Found version on [SnapEDA](https://www.snapeda.com/parts/ESP32-DEVKITC-32D-F/Espressif%20Systems/view-part/?ref=dk&t=esp-32s&con_ref=None) so removed this) |       Yes       |      Yes      |
+| Component       | Value           | Eeschema Symbol | PCB Footprint |
+| --------------- | --------------- | :-------------: | :-----------: |
+| OLED I2C Module | OLED_128x64_I2C |       Yes       |      No       |
+
+`ESP32-DEVKITC.lib` [From SnapEDA](https://www.snapeda.com/parts/ESP32-DEVKITC-32D-F/Espressif%20Systems/view-part/?ref=dk&t=esp-32s&con_ref=None)
+
+| Component       | Value         | Eeschema Symbol | PCB Footprint |
+| --------------- | ------------- | :-------------: | :-----------: |
+| NodeMCU ESP-32S | ESP32-DEVKITC |       Yes       |      Yes      |
 
 ### VeeCAD
 
