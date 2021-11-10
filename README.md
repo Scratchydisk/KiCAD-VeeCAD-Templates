@@ -46,7 +46,7 @@ Update the Path for the KICAD\_USER\_TEMPLATE\_DIR entry:
 ## External Links
 
 **KiCAD**
-[https://kicad-pcb.org/](https://kicad-pcb.org/)
+[https://kicad.org/](https://kicad.org/)
 
 **VeeCAD**
 [https://veecad.com/](https://veecad.com/)
